@@ -1,0 +1,16 @@
+{
+  "name": "atlas-browser",
+  "version": "1.0.0",
+  "description": "Sample Atlas Browser (Electron + Leaflet) - Windows build ready",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack:win": "electron-packager . AtlasBrowser --platform=win32 --arch=x64 --out=dist --overwrite"
+  },
+  "dependencies": {
+    "electron": "^26.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^17.1.0"
+  }
+}

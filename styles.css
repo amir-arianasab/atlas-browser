@@ -1,0 +1,8 @@
+body, html, #app { height: 100%; margin: 0; font-family: Arial, sans-serif; }
+#app { display: flex; }
+#sidebar { width: 320px; background: #f7f7f8; padding: 12px; box-sizing: border-box; border-right: 1px solid #ddd; }
+#map { flex: 1; }
+#map .leaflet-container { height: 100%; }
+#controls input, #controls textarea { width: 100%; box-sizing: border-box; padding: 8px; margin-bottom: 8px; }
+#controls button { width: 100%; padding: 8px; margin-bottom: 8px; }
+#chatResult { white-space: pre-wrap; background: #fff; padding: 8px; border: 1px solid #ddd; min-height: 60px; }
